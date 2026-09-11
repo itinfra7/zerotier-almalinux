@@ -37,13 +37,14 @@ For a one-line installation on an Internet-connected AlmaLinux host:
 curl -fsSL https://github.com/itinfra7/zerotier-almalinux/releases/latest/download/zerotier-install-almalinux.sh | sudo bash
 ```
 
-Run the script from this repository:
+To run a checked-out copy instead, install its prerequisites and execute it as two separate commands:
 
 ```bash
+sudo dnf install -y curl python3-dnf tar util-linux coreutils rpm
 sudo bash ./zerotier-install-almalinux.sh
 ```
 
-A normal run installs missing prerequisites through DNF. It accepts the `curl` command provided by either `curl` or `curl-minimal`.
+A normal run also installs missing prerequisites through DNF. It accepts the `curl` command provided by either `curl` or `curl-minimal`.
 
 The installer enables and starts `zerotier-one.service`. Network membership is managed separately.
 
