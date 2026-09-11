@@ -31,6 +31,12 @@ For LXC and other containers, the host must provide TUN access and the required 
 
 ## Install
 
+For a one-line installation on an Internet-connected AlmaLinux host:
+
+```bash
+curl -fsSL https://github.com/itinfra7/zerotier-almalinux/releases/latest/download/zerotier-install-almalinux.sh | sudo bash
+```
+
 Run the script from this repository:
 
 ```bash
