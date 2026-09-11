@@ -1,4 +1,4 @@
-# zerotier-almalinux
+# zerotier-one-almalinux
 
 ZeroTier One installation and upgrade support for AlmaLinux.
 
